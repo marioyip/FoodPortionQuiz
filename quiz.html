@@ -1,68 +1,196 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Het Portie-spel</title>
-    <link rel="stylesheet" href="assets/css/foundation.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+  <link href="../fontawesome/css/all.css" rel="stylesheet"> <!--load all styles -->
+    <title>Een portie gezonder!</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/jumbotron/">
     <!-- (A) LOAD QUIZ CSS + JS -->
     <link href="quiz.css" rel="stylesheet">
     <script src="quiz.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
   </head>
-<body>
 
-  <!-- Start Top Bar -->
-  <div class="top-bar">
-    <div class="top-bar-left">
-      <ul class="menu">
-        <li class="menu-text">Een portie gezonder</li>
-      </ul>
-    </div>
-    <div class="top-bar-right">
-      <ul class="menu">
-        <li><a href="#">Het Portie-spel</a></li>
-        <li><a href="#">Eerst weten, dan eten</a></li>
-        <li><a href="#">Info</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-  <!-- End Top Bar -->
-  <div class="callout large primary">
-    <div class="text-center">
-      <h1>Het portiespel</h1>
-    </div>
-  </div>
+  <body>
 
-<article class="grid-container">
-  <div class="grid-x grid-margin-x" id="content">
-    <div class="medium-12 cell">
-      <div class="blog-post">
-        <!-- (B) QUIZ CONTAINER -->
-        <div id="quizWrap"></div>
-        </div>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-
-    <div class="medium-3 cell" data-sticky-container>
-      <div class="sticky" data-sticky data-anchor="content">
-        <h4>Links</h4>
-        <ul>
-          <li><a href="http://voedingscentrum.nl">Voedingscentrum</a></li>
-          <li><a href="http://che.nl">Christelijke Hogeschool Ede</a></li>
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Het Portie-spel<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Eerst weten, dan eten</a>
+          </li>
         </ul>
       </div>
-    </div>
-  </div>
-</article>
+    </nav>
 
+    <main role="main">
 
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="text-center ">Het Portie-spel!</h1>
+          <p><div id="quizWrap"></div></p>
+        </div>
+      </div>
 
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Een portie gezonder</h2>
+            <p>Hoe kunnen we met z'n allen gezonder leven?</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Wat is een goede portie?</h2>
+            <p><!-- (B) QUIZ CONTAINER -->
+            <div id="quizWrap"></div></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Waarom heb ik altijd honger?</h2>
+            <p>Het is drie uur 's middags en je doet de koelkast weer open voor de zoveelste keer. Hoe komt dat toch? Dit zijn de belangrijkste oorzaken van altijd hongerig zijn.</p>
+            <p><a class="btn btn-secondary" href="altijdhonger.html" role="button">View details &raquo;</a></p>
+          </div>
+        </div>
 
+        <hr>
 
+      </div> <!-- /container -->
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Hoeveel groente is genoeg?</h2>
+            <p>Hoe kunnen we met z'n allen gezonder leven?</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Makkelijk koken</h2>
+            <p><!-- (B) QUIZ CONTAINER -->
+            <div id="quizWrap"></div></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Voldoening halen uit eten zonder teveel te eten</h2>
+            <p>Het is drie uur 's middags en je doet de koelkast weer open voor de zoveelste keer. Hoe komt dat toch? Dit zijn de belangrijkste oorzaken van altijd hongerig zijn.</p>
+            <p><a class="btn btn-secondary" href="altijdhonger.html" role="button">View details &raquo;</a></p>
+          </div>
+        </div>
 
+        <hr>
 
-<script src="assets/js/vendor.js"></script>
-<script src="assets/js/foundation.js"></script>
-</body>
+      </div> <!-- /container -->
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Gezonde snacks</h2>
+            <p>Hoe kunnen we met z'n allen gezonder leven?</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>De oudste persoon op aarde eet geen vlees</h2>
+            <p><!-- (B) QUIZ CONTAINER -->
+            <div id="quizWrap"></div></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Waarom heb ik altijd honger?</h2>
+            <p>Het is drie uur 's middags en je doet de koelkast weer open voor de zoveelste keer. Hoe komt dat toch? Dit zijn de belangrijkste oorzaken van altijd hongerig zijn.</p>
+            <p><a class="btn btn-secondary" href="altijdhonger.html" role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+
+        <hr>
+
+      </div> <!-- /container -->
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center text-lg-start">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Initiatief</h5>
+
+            <p>
+              Een portie gezonder is een initiatief van HBO ICT-Student Mario Yip, die de minor Media Professional volgt aan de Christelijke Hogeschool Ede.
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Contact</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="https://www.google.com/maps/dir//christelijke+hogeschool+ede+adres/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x47c7ad2f15b44713:0x23cb537370b33c91?sa=X&ved=2ahUKEwiU2or4jI_uAhWRxIUKHYKZAc0Q9RcwQXoECDoQBQ" class="text-dark">Christelijke Hogeschool Ede, Oude Kerkweg 100, 6717 JS Ede</a>
+              </li>
+
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-0">Social Media</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="http://twitter.com/maridude" class="text-dark">Twitter</a>
+              </li>
+              <li>
+                <a href="http://facebook.com/maridude" class="text-dark">Facebook</a>
+              </li>
+              <li>
+                <a href="http://linkedin.com/marioyip" class="text-dark">Linkedin</a>
+              </li>
+              <li>
+                <a href="http://youtube.com/maridude" class="text-dark">YouTube</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2021 Copyright:
+        <a class="text-dark" href="https://marioyip.nl/">marioyip.nl</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+  </body>
 </html>

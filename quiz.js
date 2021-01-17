@@ -4,14 +4,14 @@ var quiz = {
   // Q = QUESTION, O = OPTIONS, A = CORRECT ANSWER
   data: [
   {
-    q : "Wat is de portiegrootte voor cornflakes?",
+    q : "Hoeveel porties aan spaghetti krijg je op je bord in een restaurant?",
     o : [
-      "50 meters",
-      "70 meters",
-      "100 meters",
-      "120 meters"
+      "1",
+      "2",
+      "3",
+      "5"
     ],
-    a : 1 // arrays start with 0, so answer is 70 meters
+    a : 3 // arrays start with 0, so answer is 70 meters
   },
   {
     q : "Wat is de portiegrootte voor cornflakes?",
